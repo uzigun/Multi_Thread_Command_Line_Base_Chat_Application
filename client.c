@@ -33,7 +33,7 @@ DWORD WINAPI InputHandler(LPVOID lpParam) {
     return 0;
 }
 
-int main() {
+int main(void) {
 
     WSADATA wsaData;
     SOCKET clientSocketFD;
